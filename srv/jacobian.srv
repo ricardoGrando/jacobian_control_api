@@ -1,0 +1,6 @@
+thormang3_manipulation_module_msgs/JointPose[] angles
+geometry_msgs/Pose desiredStep
+uint16 ik_id_start
+uint16 ik_id_end
+---
+thormang3_manipulation_module_msgs/JointPose[] deltaAngles
