@@ -28,12 +28,12 @@ Open new Terminal
 
 ## Usage example
 
-*** rostopic pub -1 /ik_jacobian_control jacobian_control_api_msgs/CartesianMsg "target_end_effector: [0.5, 0.462, 0.121, 3.1415, 0.0, 0.0] ***
-*** initial_angles: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ***
-*** step_size: 0.001 ***
-*** part: 'left_arm' ***
-*** ik_id_start: 2 ***
-*** ik_id_end: 14" ***
+*** rostopic pub -1 /ik_jacobian_control jacobian_control_api_msgs/CartesianMsg "target_end_effector: [0.5, 0.462, 0.121, 3.1415, 0.0, 0.0] 
+initial_angles: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+step_size: 0.001 
+part: 'left_arm' 
+ik_id_start: 2 
+ik_id_end: 14"
 
 
 
